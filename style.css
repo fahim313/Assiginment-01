@@ -35,7 +35,19 @@ body{
  }
   .parragraph{
     margin-top: 30px;
-      display: flex;
+     text-align: center;
     
-   
  }
+ button {
+    background-color:black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: red;
+}
