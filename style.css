@@ -56,20 +56,22 @@ button:hover {
      .why-web-dev{
         max-width: 900px;
         min-height:1100px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: flex;
         margin: 0px auto;
         margin-top: 35px;
         background-color: whitesmoke;
+        
      }
       
       .content{
 
         width: 800px;
         height: 987px;
-        border: 2px solid green;
+        /* border: 2px solid green; */
         margin: 0px auto;
         margin: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
 
 
@@ -86,19 +88,23 @@ button:hover {
    .box{
     width: 800px;
     height: 230px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-top: 80px;
     display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    }
    .leftside-content{
     width: 60%;
     height: 230px;
-    border:2px solid red;
+    /* border:2px solid red; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
    }
    .rightside-content{
     width: 40%;
     height: 230px;
-    border:2px solid gold;
+    /* border:2px solid gold; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+
    }
 
    .leftside-content p{
@@ -121,7 +127,8 @@ button:hover {
     margin-top: 80px;
     width: 800px;
     height: 230px;
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
    }
   
@@ -129,14 +136,18 @@ button:hover {
 
     width: 40%;
     height: 230px;
-    border:2px solid red;
+    /* border:2px solid red; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 
    }
    .second-rightside{
     width: 60%;
     height: 230px;
-    border:2px solid green;
+    /* border:2px solid green; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    
    }
+    
    .font{
            font-size: small;
            opacity: 0.7;
@@ -149,15 +160,16 @@ button:hover {
       .third-bx{
         margin-top: 80px;
         width: 800px;
-        height: 230px;
-        border: 2px solid blue;
+        height: 235px;
+         /* border: 2px solid blue;  */
         display: flex;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
        
       }
       .third-leftside{
         width: 60%;
         height: 230px;
-        border:2px solid red;
+        /* border:2px solid red; */
       }
         .coder{
             font-size: small;
@@ -168,17 +180,18 @@ button:hover {
       .third-rightside{
         width: 40%;
      height: 230px;
-     border:3px solid lightcoral;
+     /* border:3px solid lightcoral; */
       }
                    /* starts inspiration section here */
         .inspiration{
          max-width: 900px;
         min-height:125px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: flex;
         margin: 0px auto;
         margin-top: 45px;
         background-color: whitesmoke;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .ins,h2{
             margin-top:2px;
@@ -197,16 +210,17 @@ button:hover {
                .inspiration-vedio{
                 max-width: 900px;
                 min-height:500px;
-                border: 2px solid red;
+                /* border: 2px solid red; */
                 display: flex;
                 margin: 0px auto;
                 margin-top: 45px;
                 background-color: whitesmoke;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                }
                .vdio{
                width: 850px;
                 height:430px;
-                border: 2px solid green;
+                /* border: 2px solid green; */
                 margin: 0px auto;
                 display: flex;
                 margin-top: 30px;
@@ -221,7 +235,7 @@ button:hover {
                 .target{
                     max-width: 900px;
                    min-height:100px;
-                 border: 2px solid red;
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 margin: 0px auto;
                 margin-top: 35px;
                 background-color: whitesmoke;
@@ -236,11 +250,13 @@ button:hover {
                  .card-container{
                     width: 900px;
                     height:250px;
-                    border: 2px solid red;
+                    /* border: 2px solid red; */
                     margin: 0 auto;
                     margin-top: 20px;
                     display: flex;
                     gap: 70px;
+                    background-color: whitesmoke;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                  }
                  .card {
                   background-color:#EEE0E5;
@@ -281,4 +297,61 @@ button:hover {
             font-size: small;
             opacity: 0.7;
 
+          }
+          /* - ---------Here is support section--------  */
+           .support-section{
+            width: 900px;
+            height:300px;
+            /* border: 2px solid red; */
+            margin: 0 auto;
+            margin-top: 20px;
+            background-image: url("assets/handshake.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            position: relative;
+
+           }
+            #head-content ,h2{
+              margin-top: 20px;
+            }
+
+        #support{
+          margin-top: 20px;
+          opacity: 0.7;
+
+        }
+        .feedback-form{
+          margin-top: 100px;
+        }
+        .feedback-form input[type="text"] {
+             
+          padding: 10px;
+          font-size: 14px;
+          width: 350px;
+          border-radius: 8px solid white;
+        }
+        #head-content{
+          position: relative;
+          z-index: 1;
+        }
+          
+          .feedback-form button{
+            padding: 10px;
+            background-color: white;
+            color: black;
+            cursor: pointer;
+          }
+          .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); 
+          }
+         
+         button:hover{
+            background-color:green;
           }
