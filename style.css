@@ -19,24 +19,25 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
- }
+}
  .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
 }
 
  .banner-content{
    text-align: center;
    letter-spacing: 2%;
+   font-size: large;
  }
   .parragraph{
-    margin-top: 30px;
-     text-align: center;
-    
+      margin-top: 30px;
+     text-align: center; 
+     opacity: 0.7;
+
  }
  button {
     background-color:black;
@@ -51,3 +52,65 @@ body{
 button:hover {
     background-color: red;
 }
+     /* --------------------Why web Devolopment__________________________ */
+     .why-web-dev{
+        max-width: 900px;
+        min-height:1800px;
+        border: 2px solid red;
+        display: flex;
+        margin: 0px auto;
+        margin-top: 35px;
+     }
+      
+      .content{
+
+        width: 800px;
+        height: 1700px;
+        border: 2px solid green;
+        margin: 0px auto;
+        margin: 50px;
+      }
+
+
+   .title-intro,h1{
+    text-align: center;
+    width: 852px;
+    height: 52px;   
+   } 
+   .intoduction{
+    font-size: 14px;
+    opacity: 0.7;
+   line-height: 14px;
+   }
+   .box{
+    width: 800px;
+    height: 230px;
+    border: 2px solid blue;
+    margin-top: 80px;
+    display: flex;
+   }
+   .leftside-content{
+    width: 50%;
+    height: 230px;
+    border:2px solid red;
+   }
+   .rightside-content{
+    width: 50%;
+    height: 230px;
+    border:2px solid gold;
+   }
+
+   .leftside-content p{
+    font-size: small;
+    opacity: 0.7;
+    margin-top: 20px;
+   }
+   .btn{
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-top: 57.9px;
+   }
+   
+  
