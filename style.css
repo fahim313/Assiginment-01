@@ -55,17 +55,18 @@ button:hover {
      /* --------------------Why web Devolopment__________________________ */
      .why-web-dev{
         max-width: 900px;
-        min-height:1800px;
+        min-height:1100px;
         border: 2px solid red;
         display: flex;
         margin: 0px auto;
         margin-top: 35px;
+        background-color: whitesmoke;
      }
       
       .content{
 
         width: 800px;
-        height: 1700px;
+        height: 987px;
         border: 2px solid green;
         margin: 0px auto;
         margin: 50px;
@@ -90,12 +91,12 @@ button:hover {
     display: flex;
    }
    .leftside-content{
-    width: 50%;
+    width: 60%;
     height: 230px;
     border:2px solid red;
    }
    .rightside-content{
-    width: 50%;
+    width: 40%;
     height: 230px;
     border:2px solid gold;
    }
@@ -112,5 +113,60 @@ button:hover {
     padding: 10px 20px;
     margin-top: 57.9px;
    }
-   
+   .btn:hover{
+    background-color: green;
+   }
+            /* second-box starts here */
+   .booxx_{
+    margin-top: 80px;
+    width: 800px;
+    height: 230px;
+    border: 2px solid brown;
+    display: flex;
+   }
   
+   .second-leftside{
+
+    width: 40%;
+    height: 230px;
+    border:2px solid red;
+
+   }
+   .second-rightside{
+    width: 60%;
+    height: 230px;
+    border:2px solid green;
+   }
+   .font{
+           font-size: small;
+           opacity: 0.7;
+           margin-top: 20px;       
+   }
+   
+
+     /* third-box starts here--- */
+     
+      .third-bx{
+        margin-top: 80px;
+        width: 800px;
+        height: 230px;
+        border: 2px solid blue;
+        display: flex;
+       
+      }
+      .third-leftside{
+        width: 60%;
+        height: 230px;
+        border:2px solid red;
+      }
+        .coder{
+            font-size: small;
+          opacity: 0.7;
+          margin-top: 20px;
+        }
+
+      .third-rightside{
+        width: 40%;
+     height: 230px;
+     border:3px solid lightcoral;
+      }
