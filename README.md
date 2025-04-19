@@ -29,6 +29,11 @@ To set up the project locally, follow these steps:
 2. Extract the ZIP file to a directory of your choice.
 3. Open the `index.html` file in your preferred web browser to view the website locally.
 
+## Live Preview
+
+You can view the live version of the project here:  
+🔗 [https://fahim313.github.io/WebDev-Aspirations/](https://fahim313.github.io/WebDev-Aspirations/)
+
 ## Author
 
 This project was developed by **Fahim Sahriiar**.
